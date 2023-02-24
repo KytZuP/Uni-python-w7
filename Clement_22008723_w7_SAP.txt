@@ -42,19 +42,31 @@ elif examScore >= 0 <= 59:
 print("Grade: ", grade)
 
 
-if semNums == 3 and grade == "A" or "B":
+
+if semNums == 3 and grade == "A":
     group = "Soaring the Eagles"
 
-elif semNums == 2 and grade == "B" or "C":
+elif semNums == 3 and grade == "b":
+    group = "Soaring the Eagles"
+
+elif semNums == 2 and grade == "C":
     group = "Guiding the Cubs"
 
-elif semNums == 1 and grade == "D" or "F":
+elif semNums == 2 and grade == "D":
+    group = "Guiding the Cubs"
+
+elif semNums == 1 and grade == "F":
     group = "Coaching the Pandas"
 
 else:
-    print("Currently unavailable")
+    group = "Currently unavailable"
 
 print("Self-improvement program: ", group)
+
+
+
+
+    
 
 
 
